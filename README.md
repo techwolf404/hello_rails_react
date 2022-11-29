@@ -1,43 +1,159 @@
-# Project Name
+<a name="readme-top"></a>
 
-Hello Rails From React
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-# Description the project.
+Modify this file to match your project and remove sections that don't apply.
 
-This is a simple web app to test working with rails and react
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-## Built With
+After you're finished please remove all the comments and instructions!
+-->
 
-- Languages:
-  _**Ruby**_
-  _**React**_
-  _**Redux**_
-  _**Webpack**_
-  _**Postgresql**_
-- Frameworks: _**Ruby On Rails**_
-- Technologies used: _**Visual Studio Code**_
+<div align="center">
 
-### Requirements
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-In order to work on this project, you need to have the following dependencies installed:
+  <h3><b>Microverse README Template</b></h3>
 
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [Hello Rails React] <a name="about-project"></a>
+
+> Describe your project in 1 or 2 sentences.
+
+**[Hello rails react]** is a simple web app to test working with rails and react
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[This app has API end points]**
+- **[It fetches from the API and renders the data]**
+- **[It renders random greetings on refreshing and navigating to the './message']**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+
+- Coming Soon
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
 - [Ruby](https://www.ruby-lang.org/en/)
 - [Postgresql](https://www.postgresql.org/)
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://yarnpkg.com/)
 - [Rails](https://rubyonrails.org/)
+<!--
+Example command:
 
-## Getting Started
-
-### Clone this repository
-
-```bash
-$ git clone https://github.com/techwolf404/hello_rails_react.git
-$ cd hello_rails_react
+```sh
+ gem install rails
 ```
+ -->
 
-### Commands to run
+### Setup
 
+Clone this repository to your desired folder by running these commands:
+- $ git clone https://github.com/techwolf404/hello_rails_react.git
+- $ cd hello_rails_react
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
+
+### Install
+
+Install this project with:
 Run
 
 ```bash
@@ -51,7 +167,6 @@ Then, run
 ```bash
 $ npm install
 ```
-
 To install packages such as style linters
 
 To check linters locally, use
@@ -67,25 +182,34 @@ Once you have the project correctly set up, run
 $ bin/rails db:setup
 ```
 
-To run all migrations, create the database for testing and for development, and insert some data into the database for you to visualize the changes
+<!--
+Example command:
 
-Finally, each time you make changes to the project, run
-
-```bash
-$ bundle exec rspec /spec
+```sh
+  cd my-project
+  gem install
 ```
+--->
 
-In the root folder to check the consistency of the app. Please don't make changes to the tests unless completely necessary, and mention it in your PR description.
+### Usage
 
-Important note: Since this project uses webpack for the bundling, you need to run:
+To run the project, execute the following command:
+- ./bin/dev or rails s
+<!--
+Example command:
 
-```bash
-$ ./bin/dev i am on windows so you've to run yarn build --watch and then start the server
+```sh
+  rails server
 ```
+--->
 
-For you to see the app being applied in the browser during development
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Author
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+> Mention all of the collaborators of this project.
 
 👤 **Hatim Eddinani**
 
@@ -93,24 +217,43 @@ For you to see the app being applied in the browser during development
 - Twitter: [@the_BwoyProgrmmr](https://twitter.com/the_BwoyProgrmmr)
 - LinkedIn: [@Hatim Eddinani](https://www.linkedin.com/in/hatimdev/)
 
-## 🤝 Contributing
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/techwolf404/hello_rails_react/issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Microverse
-- LazyCoders
-- Coding Partners
-- Inspiration
-- etc
+> Write a message to encourage readers to support your project
 
-## 📝 License
+If you like this project give a ⭐️ and follow my profile links so that we can connect
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank Microverse for this opportunity
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
+
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
